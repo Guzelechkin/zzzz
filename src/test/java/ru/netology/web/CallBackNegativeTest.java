@@ -16,10 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 class CallBackNegativeTest {
     private WebDriver driver;
 
-    @BeforeAll
-    static void setUpAll() {
-        WebDriverManager.chromedriver().setup();
-    }
+
 
     @BeforeEach
     void setUp() {
